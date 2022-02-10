@@ -6,3 +6,10 @@ to use, navigate to your home directory <cd> and clone this repository
 
 chmod +x the setup.sh file and run it as sudo, the follow the prompts. you may need to 
 press a key periodically so it's not fully automatic
+  
+I3 navigation is slightly changed to use vim standard home row navigation instead of whatever
+insane setting they had as default, as such the mod+o command now switches back to horizontal tiling
+in my config the mod key is alt
+
+to change the background, place whatever image you want to use in the setup directory and rename it to 
+background, then use mod+shift+r to restart i3, the image should now be your wallpaper

@@ -67,11 +67,11 @@ if proton == "y":
 
 #use included mouse profile
 if mouse == "y":
-    os.system("cp setMouseConfig.sh ../.config")
+    os.system("sudo cp setMouseConfig.sh ../.config")
 else:
-    os.system("touch ../.config/setMouseConfig.sh")
+    os.system("sudo touch ../.config/setMouseConfig.sh")
 #set the config script to be executeable
-os.system("chmod +x ../.config/setMouseConfig.sh")
+os.system("sudo chmod +x ../.config/setMouseConfig.sh")
 
 #use included screen profile
 if screen == "y":

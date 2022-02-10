@@ -80,7 +80,7 @@ if screen == "y":
     os.system("sudo chmod +x ../.screenlayout/3monitor.sh")
 
 #set vim to alias for nvim
-os.system(" alias [vim]='[nvim]'")
+os.system(" alias vim='nvim'")
 
 #copy the i3 config to the right location
 os.system("sudo cp config ../.config/i3")
@@ -95,8 +95,11 @@ os.system("sudo mkdir ../.config/nvim")
 os.system("sudo cp init.vim ../.config/nvim")
 
 # seg gtk theme
-
+print()
 print("installation is not quite complete, some manual operations are required")
+print("before continuing you need to either restart your terminal or open a new one")
+print("and run the following commands in the new window")
+print()
 print("first, open .config/nvim/init.vim and type the following keys <:PlugInstall>")
 print("after the install completes, type <:q!> then hit enter")
 print("do so again to exit vim")

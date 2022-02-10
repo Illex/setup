@@ -56,7 +56,7 @@ else:
 #install all the programs in the list
 for i in range(len(list)):
     print(list[i], end="")
-    os.system("sudo apt-get install " + list[i] + " -y")
+    os.system("sudo apt-get install -y" + list[i])
 
 #download and install protonvpn, when the link updates, this section will break
 if proton == "y":
@@ -80,7 +80,7 @@ if screen == "y":
     os.system("sudo chmod +x ../.screenlayout/3monitor.sh")
 
 #set vim to alias for nvim
-os.system("sudo alias [vim]='[nvim]'")
+os.system(" alias [vim]='[nvim]'")
 
 #copy the i3 config to the right location
 os.system("sudo cp config ../.config/i3")
@@ -104,7 +104,7 @@ print()
 print("if you installed protonvpn you will need to run <protonvpn-cli login>")
 print("you will also need to run <sudo lxappearance> to set the gtk theme, this will make your windows look nicer")
 print()
-printf("dont forget to setup ssh")
+print("dont forget to setup ssh")
 print()
 print("after all this configuration is complete you should have a fully featured i3 setup, simply logout")
 print("and login after changing to the i3wm")

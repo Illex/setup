@@ -56,7 +56,7 @@ else:
 #install all the programs in the list
 for i in range(len(list)):
     print(list[i], end="")
-    os.system("sudo apt-get install -y" + list[i])
+    os.system("sudo apt-get install -y " + list[i])
 
 #download and install protonvpn, when the link updates, this section will break
 if proton == "y":

@@ -12,7 +12,7 @@ steam
 wireshark
 arandr
 cura
-pip3
+python3-pip
 git
 feh
 htop

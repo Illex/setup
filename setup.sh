@@ -89,6 +89,7 @@ os.system("sudo cp config ../.config/i3")
 os.system("sudo cp compton.conf ../.config")
 
 #setup nvim plugin manager
+os.system("sudo apt-get install fuse libfuse2 git ack-grep -y")
 os.system("curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim")
 #copy vim config to proper location
 os.system("sudo mkdir ../.config/nvim")

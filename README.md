@@ -13,3 +13,12 @@ in my config the mod key is alt
 
 to change the background, place whatever image you want to use in the setup directory and rename it to 
 background, then use mod+shift+r to restart i3, the image should now be your wallpaper
+  
+  ******* Important ********
+  
+  There are still a couple of small bugs mostly to do with file copies
+  you will have to install nvim plugin manager manually, see
+    https://www.linode.com/docs/guides/how-to-install-neovim-and-plugins-with-vim-plug/
+  
+  also, the i3status.conf needs to be copied to the /etc directory manually. otherwise the
+  install script works as intended

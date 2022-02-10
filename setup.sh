@@ -80,11 +80,14 @@ if screen == "y":
     os.system("sudo chmod +x ../.screenlayout/3monitor.sh")
 
 #set vim to alias for nvim
-os.system(" alias vim='nvim'")
+os.system("alias vim='nvim'")
 
 #copy the i3 config to the right location
 os.system("sudo mkdir ../.config/i3")
 os.system("sudo cp config ../.config/i3/config")
+
+#copy i3 bar conf to right location
+os.system("sudo cp i3status.conf ../etc
 
 #copy the airbladder compton config
 os.system("sudo cp compton.conf ../.config")

@@ -83,7 +83,7 @@ if screen == "y":
 os.system(" alias vim='nvim'")
 
 #copy the i3 config to the right location
-os.system("sudo cp config ../.config/i3")
+os.system("sudo cp config ../.config/i3/config")
 
 #copy the airbladder compton config
 os.system("sudo cp compton.conf ../.config")
